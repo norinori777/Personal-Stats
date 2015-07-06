@@ -1,0 +1,90 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/datepicker_from_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+       	android:layout_marginBottom="3dp"
+        android:background="@drawable/border"
+        android:text="@string/datepicker_from"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/title" />
+    
+    <TextView
+        android:id="@+id/textView_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:text="TextView" />
+    
+    <TextView
+        android:id="@+id/datepicker_to_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/border"
+        android:text="@string/datepicker_to"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_to"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:text="TextView" />
+
+    <Button
+	    android:id="@+id/button_search"
+	    style="?android:attr/buttonStyleSmall"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="15dp"
+	    android:background="@drawable/button_default"
+	    android:textColor="#E6E8E7"
+	    android:text="検索開始" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/border"
+        android:text="@string/text_result"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/title"
+        android:visibility="gone" />
+    <ListView
+        android:id="@+id/list_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+</LinearLayout>
+<ListView
+  	android:id="@+id/drawer_listview_search"
+  	android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:choiceMode="singleChoice"
+    android:divider="@color/navi_divide"
+    android:dividerHeight="2dp"
+    android:background="@color/navi_background" />
+</android.support.v4.widget.DrawerLayout>

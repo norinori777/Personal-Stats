@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="base">#D9D7D6</color>
+	<color name="assort">#34C8CC</color>
+	<color name="accent">#FFFDFC</color>
+	<color name="divide_line">#E8D4D1</color>    
+	<color name="title">#1f96cc</color>
+	<color name="minus">#D4364C</color>
+	<color name="plus">#999308</color>
+	<color name="navi">#EDEBEB</color>
+	<color name="navi_string">#447F82</color>
+	<color name="navi_divide">#E8D4D1</color>
+	<color name="navi_background">#D4CAD8</color>
+	<color name="list_focus">#95D4CC</color>
+</resources>

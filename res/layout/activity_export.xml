@@ -1,0 +1,54 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_export"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >  
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_export"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="-19dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/border"
+        android:text="@string/title_export"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/title" />
+
+    <ListView
+        android:id="@+id/list_dir"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8" >
+    </ListView>
+
+    <Button
+        android:id="@+id/button_choice"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_default"
+        android:text="@string/export_button"
+        android:textColor="#E6E8E7" />
+</LinearLayout>
+
+<ListView
+  	android:id="@+id/drawer_listview_export"
+  	android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:choiceMode="singleChoice"
+    android:divider="@color/navi_divide"
+    android:dividerHeight="2dp"
+    android:background="@color/navi_background" />
+</android.support.v4.widget.DrawerLayout>

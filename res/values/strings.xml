@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Personal Stats</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="PT">Point</string>
+    <string name="FG">Field Goal</string>
+    <string name="three">3Point</string>
+    <string name="two">2Point</string>
+    <string name="FT">Free Throw</string>
+    <string name="ast">Asist</string>
+    <string name="oreb">O Reb</string>
+    <string name="dreb">D Reb</string>
+    <string name="stl">Steal</string>
+    <string name="blk">Block</string>
+    <string name="to">Turn Over</string>
+    <string name="off">Offence</string>
+    <string name="def">Defence</string>
+    <string name="ext">Extra</string>
+    <string name="datepicker_from">FROM</string>
+    <string name="datepicker_to">TO</string>
+    <string name="text_result">RESULT</string>
+    <string name="export">EXPORT</string>
+    <string name="title_export">ディレクトリを選択</string>
+    <string name="export_button">エクスポート</string>
+    <string name="title_import">ファイルを選択</string>
+    <string name="import_button">インポート</string>
+    <string name="import_error">インポートに失敗しました</string>
+    <string name="import_success">のインポートが完了しました</string>
+    <string name="export_error">エクスポートに失敗しました</string>
+    <string name="export_success">へのエクポートが完了しました</string>
+    <string name="export_file_header">DATE,2FG,2AT,3FG,3AT,FT,FAT,AST,OREB,DREB,STL,BLK,TO\n</string>
+    <string name="export_file_name">Personal_Stats</string>
+    <string name="s_three">3PT</string>
+    <string name="s_two">2PT</string>
+    <string name="s_FT">"FT  "</string>
+    <string name="s_ast">AST</string>
+    <string name="s_oreb">OReb</string>
+    <string name="s_dreb">DReb</string>
+    <string name="s_stl">STL</string>
+    <string name="s_blk">BLK</string>
+    <string name="s_to">TO</string>
+    <string name="ok">SUCCESS</string>
+    <string name="ng">FAIL</string>
+</resources>
